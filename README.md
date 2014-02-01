@@ -5,7 +5,7 @@ Override node.js configuration with environment variables.
 
 ###Usage:
 
-* Put your configuration in a .json file (optional but most common)
+* Put your default configuration in a .json file (optional but most common)
 * In any of your files that need to access the configuration:
 
         var defaults = require('./yourfile.json'),
