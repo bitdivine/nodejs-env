@@ -9,7 +9,8 @@ Override node.js configuration with environment variables.
 * In any of your files that need to access the configuration:
 
         var defaults = require('./yourfile.json'),
-            config   = require('nodejs-env')(defaults);
+            override = require('env-override'),
+            config   = override(defaults);
 
 * If your defaults are:
 

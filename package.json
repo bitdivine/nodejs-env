@@ -1,4 +1,4 @@
-{ "name": "nodejs-env"
+{ "name": "env-override"
 , "version": "0.0.0"
 , "description": "Override nodejs configuration with environment variables."
 , "main": "lib/override.js"
@@ -8,7 +8,7 @@
   }
 , "repository":
   { "type": "git"
-  , "url": "ssh://git@github.com:bitdivine/nodejs-env"
+  , "url": "ssh://git@github.com:bitdivine/nodejs-env-override"
   }
 , "author": "Bitdivine"
 , "license": "BSD"
