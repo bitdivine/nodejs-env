@@ -1,0 +1,7 @@
+        { "server":
+          { "host": "morethanabit.com"
+          , "port": 666
+          }
+        , "log": "log/log"
+        }
+

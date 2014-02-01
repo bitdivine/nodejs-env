@@ -13,11 +13,11 @@ Override node.js configuration with environment variables.
 
 * If your defaults are:
 
-        { 'server':
-          { 'host': 'morethanabit.com'
-          , 'port': 666
+        { "server":
+          { "host": "morethanabit.com"
+          , "port": 666
           }
-        , 'log': 'log/log'
+        , "log": "log/log"
         }
 
     You can override them with environment variables like this:

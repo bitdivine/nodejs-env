@@ -1,0 +1,17 @@
+{ "name": "nodejs-env"
+, "version": "0.0.0"
+, "description": "Override nodejs configuration with environment variables."
+, "main": "lib/override.js"
+, "scripts":
+  { "test": "npm run lint && bash ./test/test.sh && echo OK"
+  , "lint": "find lib test | grep -E '.js$' | xargs jshint"
+  }
+, "repository":
+  { "type": "git"
+  , "url": "ssh://git@github.com:bitdivine/nodejs-env"
+  }
+, "author": "Bitdivine"
+, "license": "BSD"
+, "dependencies": {
+  }
+}
